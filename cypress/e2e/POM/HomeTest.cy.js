@@ -24,7 +24,7 @@ describe('Home_Test', function(){
     it("testLaunch", function(){
         home.visit();
 
-        home.Launch().click()
+        home.Launch().click();
 
     })
     it("testTrain", function(){
