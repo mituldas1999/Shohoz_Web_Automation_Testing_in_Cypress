@@ -1,35 +1,30 @@
 import { Home } from "../../pages/Home";
 
 
-describe('Home_Test', function(){
+describe('Home_Test', () =>{
 
     const home=new Home()
 
-    it("testHome", function(){
-
-        home.visit();
+    it("Home", () =>{
+        home.visit()
 
     })
-    it("testcontact_Us", function(){
-        home.visit();
-
+    it("contact_Us", () =>{
+        home.visit()
         home.contact_Us().click()
     })
-    it("testBus", function(){
-        home.visit();
-
+    it("Bus", () =>{
+        home.visit()
         home.Bus().click()
 
     })
-    it("testLaunch", function(){
-        home.visit();
-
-        home.Launch().click();
+    it("Launch", () =>{
+        home.visit()
+        home.Launch().click()
 
     })
-    it("testTrain", function(){
-        home.visit();
-
+    it("Train", () =>{
+        home.visit()
         home.Train().click()
 
     })
