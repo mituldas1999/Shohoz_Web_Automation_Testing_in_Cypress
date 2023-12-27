@@ -6,6 +6,4 @@ describe('Bus_Test', () =>{
         bus.visit()
         bus.Click_Bus().click()
     })
-
-
 })
