@@ -5,6 +5,9 @@ describe('Launch_Test', () =>{
     const launch=new Launch
     it("Launch", () =>{
         launch.visit()
-        launch.Click_Launch().click()
+        // cy.wait(10000)
+        // launch.clickLaunch().click()
+        cy.get("ol > :nth-child(2) > a").click()
+        cy.get("#dest_from").type("Hello")
     })
 })
